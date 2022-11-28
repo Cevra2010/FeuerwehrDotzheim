@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tw:build": "tailwindcss build ./assets/css/app.css -o ./public/css/app.css"
+    "tw:build": "tailwindcss build ./assets/css/app.css -o ./public/css/app.css",
+    "tw:watch": "tailwindcss build ./assets/css/app.css -o ./public/css/app.css --watch",
+    "tw:finish": "tailwindcss build ./assets/css/app.css -o ./public/css/app.css --minify"
   },
   "author": "",
   "license": "ISC",
